@@ -5,6 +5,7 @@ function RootLayout() {
     <div>
         <nav className='navbar'>
         <h1>Logo</h1>
+        <h2>Logo2</h2>
         <ul>
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
