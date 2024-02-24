@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+
+}
+
+li{
+  margin-left: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+
+.home_link{
+  width: 60px;
+  padding: 10px 25px;
+  border: 2px black solid;
+  color: blue;
+  display: block;
+  margin: auto;
+}
